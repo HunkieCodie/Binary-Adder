@@ -44,10 +44,14 @@ Adder is that a full adder has three inputs. The same two single bit data
 inputs A and B as before plus an additional Carry-in (C-in) input to 
 receive the carry from a previous stage. 
 
-###**Code execution**
+###Code execution
+
+
 ![](img/img.png)
 
-`This is  a laboratory exercise for Course code - CPE401 from the department of Computer Science and Engineering in Obafemi Awolowo University.`
+
+`This is a laboratory exercise for Course code - CPE401 from the department of Computer Science and Engineering in Obafemi Awolowo University.`
+
 
 
 
