@@ -27,7 +27,8 @@ def xor(bit_a, bit_b):
     return int(A1 or A2)
 
 
-# Defining a half adder which is a XOR to give you a summed output and an AND # to give you a carry. It will have 2 inputs (bit_a, bit_b) and gives two
+# Defining a half adder which is a XOR to give you a summed output and an AND
+# to give you a carry. It will have 2 inputs (bit_a, bit_b) and gives two
 # outputs the XOR for sum and the AND for carry.
 def half_adder(bit_a, bit_b):
     return xor(bit_a, bit_b), bit_a and bit_b
@@ -46,7 +47,7 @@ def full_adder(bit_a, bit_b, carry=0):
 # where we carry the carry as input to the next step.
 def binary_string_adder(bits_a, bits_b):
     carry = 0
-    result = """"""
+    result = ""
     for i in range(len(bits_a)-1 , -1, -1):
         sum_, carry = full_adder(int(bits_a[i]), int(bits_b[i]), carry)
         result += str(sum_)
